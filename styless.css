@@ -1,0 +1,45 @@
+p {
+    font-family: Cursive;
+}
+body {
+    background-image: url(https://i.pinimg.com/474x/e5/f6/ce/e5f6cee875a129e7d4e289885ac2d0c6--pastel-pink.jpg)
+}
+header {
+    border: 4px solid #f2efeb;
+    background-color: #ffbdcf;
+}
+
+.name {
+    font-family: Helvetica;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+}
+
+.nav {
+        text-align: center;
+}
+
+a:hover {
+    background-image: url(http://www.lovethispic.com/uploaded_images/151967-Wink-Wink.gif)
+}
+.nav a {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color:#f2efeb;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.photos{width:300px;height:300px;
+}
+#grid-container{
+   grid-template:500px 500px 500px/500px 500px 500px;
+    display:grid;
+    width:1000;
+    height:1000;
+    
+}
+.grid-item{
+ width:500px;
+ height:500px;
+}
